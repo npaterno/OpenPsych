@@ -1,16 +1,24 @@
 Package: OpenPsych
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Data collected during the 2026 SIPS @ SPSP Hack-a-thon for Open Data.
 Version: 0.1.0
 Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
+    person("Paterno", "Nick", email = "nick@openintro.org", role = c("aut", "cre")),
+    person("Handley-Miner", "Isaac", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-9941-2624")),
+    person("Shoda", "Yuichi", email = "", role = c("aut"), comment = c(ORCID = "0000-0001-6038-6142")),
+    person("Unkelbach", "Christian", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-3793-6246")),
+    person("Wang", "Y. Andre", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-5729-7373")),
+    person("Yu", "Gareth", email = "", role = c("aut"), comment = c(ORCID = "0009-0006-5053-6091")),
+    person("Bottesini", "Julia G.", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-5340-993X
+")),
+person("Krenzer", "William", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-2074-9698")),
+person("Griffin", "Siobhán", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-3613-2844"))
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This package contains data collected during the 2026 SIPS @ SPSP Hack-a-thon for Open Data. Data will be migrated into the openintro package.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.3
