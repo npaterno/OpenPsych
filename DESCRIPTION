@@ -1,6 +1,6 @@
 Package: OpenPsych
 Type: Package
-Title: Data collected during the 2026 SIPS @ SPSP Hack-a-thon for Open Data.
+Title: Data collected during the 2026 SIPS @ SPSP Hack-a-thon for Open Data
 Version: 0.1.0
 Authors@R: c(
     person("Paterno", "Nick", email = "nick@openintro.org", role = c("aut", "cre")),
@@ -9,10 +9,9 @@ Authors@R: c(
     person("Unkelbach", "Christian", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-3793-6246")),
     person("Wang", "Y. Andre", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-5729-7373")),
     person("Yu", "Gareth", email = "", role = c("aut"), comment = c(ORCID = "0009-0006-5053-6091")),
-    person("Bottesini", "Julia G.", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-5340-993X
-")),
-person("Krenzer", "William", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-2074-9698")),
-person("Griffin", "Siobhán", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-3613-2844"))
+    person("Bottesini", "Julia G.", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-5340-993X")),
+    person("Krenzer", "William", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-2074-9698")),
+    person("Griffin", "Siobhán", email = "", role = c("aut"), comment = c(ORCID = "0000-0002-3613-2844"))
   )
 Description: This package contains data collected during the 2026 SIPS @ SPSP Hack-a-thon for Open Data. Data will be migrated into the openintro package.
 License: GPL-3
